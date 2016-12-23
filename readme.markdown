@@ -48,3 +48,5 @@ const store = createStore(
   applyMiddleware(reduxThunktions)
 )
 ```
+
+If using a promise middleware it then `redux-thunktions` should be applied first so that returned promises can be intercepted.
