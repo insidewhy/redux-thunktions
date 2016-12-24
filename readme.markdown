@@ -49,4 +49,4 @@ const store = createStore(
 )
 ```
 
-If using a promise middleware it then `redux-thunktions` should be applied first so that returned promises can be intercepted.
+If using a promise middleware then `redux-thunktions` should be applied first so that promises returned by the thunk can be intercepted.
