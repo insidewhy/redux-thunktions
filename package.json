@@ -1,6 +1,6 @@
 {
   "name": "redux-thunktions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "FSA aware thunk redux middleware",
   "main": "lib/index.js",
   "scripts": {
@@ -28,9 +28,7 @@
     "babel-preset-es2015": "^6.18.0",
     "rimraf": "^2.5.4"
   },
-  "dependencies": {
-    "lodash": "^4.17.2"
-  },
+  "dependencies": {},
   "babel": {
     "presets": [
       "es2015"
